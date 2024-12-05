@@ -24,7 +24,13 @@
             return RecMethod(total);
         }
 
-a
+#### **num = 2**
+
+Quan cridem la funció RecMethod amb num = 2, on s'inicialitza la variable total a 0, i després com que num és menor que 10 la funció retorna num altre cop i acaba la funció.
+
+#### **num = 12**
+
+Quan cridem la funció RecMethod amb num = 12, on s'inicialitza la variable total a 0, i després com que num és major que 10 no entrem en la condició i al continuar trobem un while. En el while com que num és major a 0 entrem dins d'aquest. Dins del bucle total serà igual a total més el mòdul de 10, que és 0, després num és igual a num entre 2 i tornem a començar el bucle, el bucle continuarà fins que num sigui igual o menor a 0. Quan num és 0 contniua l'execusió de la funció, que retorna la mateixa funció, però aquesta vegada en comptes de cridar-la amb num, la cridem a total. Quan cridem de nou la funció total, ara converitit amb el nou num per la funció, ja és menor que 10, així que retornem num i acaba la funció.
 
 ### 2. Implementa un programa senzill, fent servir la llibreria més adient en cada cas d’entre les que trobaràs en aquest [enllaç](https://drive.google.com/drive/folders/1mOf7DHD8PWdf31kYrsEis6n1ubpsnQj4?usp=sharing), que:
 - demani un valor enter a l'usuari per teclat i aquest retorni si es troba o no a la llista següent:
