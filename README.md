@@ -46,10 +46,12 @@ a
 
 Tradueix a llenguatge de baix nivell les següents instruccions, indicant la instrucció sencera (de 16 bits) en format binari que ha d’executar la màquina:
 
-- **CMP 2F, 35** ->
-- **MOV AB, 74** ->
-- **ADD 12, 43** ->
-- **MOV A8, 66** ->
+A10, B11, C12, D13, E14, F15
+
+- **CMP 2F, 35** -> 00 00101111 00110101
+- **MOV AB, 74** -> 01 10101011 01110100
+- **ADD 12, 43** -> 10 00010010 01000011
+- **MOV A8, 66** -> 01 10101000 01100110
 
 ***Important!! Totes les adreces de memòria estan en base hexadecimal.***
 
