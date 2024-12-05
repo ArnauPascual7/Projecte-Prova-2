@@ -74,4 +74,3 @@ El teu objectiu és:
 - escriure els tests necessaris per validar tots els casos (indicant en el mateix test les classes d’equivalència, valors límit i casos de prova). Es pot fer servir MsTest o XUnit (2 punts).
 - implementar una funció en C# que comprovi si una contrasenya és vàlida segons les normes anteriors i executar els tests, validant que els resultats són correctes (2 punts).
 
-a
