@@ -60,7 +60,7 @@ A10, B11, C12, D13, E14, F15
 - mostri aquesta llista de valors ordenada de manera ascendent, implementant l’algorisme bubble sort (2 punts).
 - demani un valor enter a l’usuari i informi per consola si aquest es troba entre els valors introduïts o no (2 punts).
 
-a
+*No he utilitzat cap algoritme de cerca fet per mi, com el Binary Search, per a buscar el valor dins de l'array, si no que he utilitzat una funció ja implementada de arrays, la funció Conatins().*
 
 ### 6. L'empresa on estàs fent pràctiques es dedica a desenvolupar jocs de taula digitals. Formes part de l'equip encarregat de la nova versió del famós joc "Escape the Dungeon". En aquest sprint, una de les tasques és implementar un sistema de validació per una contrasenya màgica que permeti desbloquejar el cofre que conté la clau per escapar del calabós.
 
