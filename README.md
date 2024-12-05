@@ -30,11 +30,10 @@ a
 - demani un valor enter a l'usuari per teclat i aquest retorni si es troba o no a la llista següent:
  { 10, -4, 6, 4, 8, 13, 2, -4} (1,5 punts)
 - mostri la llista de valors anterior (apartat a) ordenada de manera ascendent (1,5 punts)
-Argumenta quines llibreries has fet servir i per què. En cas que no es faci servir cap de les llibreries de l’enllaç indicat, la solució NO comptarà com a vàlida.
 
 Argumenta quines llibreries has fet servir i per què. En cas que no es faci servir cap de les llibreries de l’enllaç indicat, la solució NO comptarà com a vàlida.
 
-a
+*Per a fer l'exercici he utilitzat el Second Sort per a ordenar l'array i Binary Search per a trobar el valor. He utilitzat Second Sort en comptes de First Sort, perque Second Sort ordena l'array dividint-la en parts més petites, en comptes de comparar les parelles de valors com First Sort. He utlitzat Binary Search per a trobar el valor dins de l'array, perquè divideix l'array fins a trobar el valor.*
 
 ### 3. Analitza el següent [codi](https://drive.google.com/file/d/1_Wl23nwWRNy6ZR1bnZCzH-IraeYjpSb4/view?usp=sharing) i reescriu el programa, aplicant els mètodes de refacció i optimització i validant que aquest funcioni correctament i faci allò que s’indica a la postcondició (2 punts).
 
