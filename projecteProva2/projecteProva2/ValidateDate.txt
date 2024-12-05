@@ -1,0 +1,28 @@
+//PRE: rep 3 números
+program validate_num:							
+	var 
+		int dia;
+        int mes;
+        int any;
+        bool validat;
+	endvar
+	write("Introdueix el dia, mes i any");
+	if (day < 1 || day > 31) then
+		write("Introdueix el dia, mes i any");
+
+	if (month < 1 || month > 12) then
+		int totalDaysMonth = 0;
+
+	if (month==1 || month==3 || month==5 || month==7 || month==8 || month==10 || month==12 ) then
+		totalDaysMonth = 31; break;
+
+	else
+		totalDaysMonth = 30; break;
+
+	if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0))) then
+		totalDaysMonth = 29;
+
+	else totalDaysMonth = 28;
+		break;
+endprogram	
+//POST: retorna si els números (dd, mm, yyyy) estan dins del rang de data corresponent
