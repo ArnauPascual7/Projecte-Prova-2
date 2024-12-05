@@ -48,10 +48,23 @@ Tradueix a llenguatge de baix nivell les següents instruccions, indicant la ins
 
 A10, B11, C12, D13, E14, F15
 
-- **CMP 2F, 35** ->
-- **MOV AB, 74** ->
-- **ADD 12, 43** ->
-- **MOV A8, 66** ->
+1111 -> 8 + 4 + 2 + 1
+
+- **CMP 2F, 35** -> 00 00101111 00110101
+
+2 = 0010, F = 1111, 3 = 0011, 5 = 0101
+
+- **MOV AB, 74** -> 01 10101011 01110100
+
+A = 1010, B = 1011, 7 = 0111, 4 = 1010
+
+- **ADD 12, 43** -> 10 00010010 01000011
+
+1 = 0001, 2 = 0010, 4 = 0100, 3 = 0011
+
+- **MOV A8, 66** -> 01 10101000 01100110
+
+A = 1010, 8 = 1000, 6 = 0110, 6 = 0110
 
 ***Important!! Totes les adreces de memòria estan en base hexadecimal.***
 
